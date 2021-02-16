@@ -1,5 +1,5 @@
 # LODS Recommender System
-**LODS RS**, a plateform offering a LODS based recommender system.
+**LODS RS**, a plateform offering a LODS based recommender system. Recommends everything within the DBpedia Dataset.
 
 ## Motivation
 The decentralized plateform **LODS RS** was created in order to calculate similarity scores between different data types using the [LODS mesure](https://ieeexplore.ieee.org/abstract/document/7536467).
