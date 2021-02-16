@@ -75,7 +75,7 @@ yarn install
 
 - Read user profile to get his preferences.
 - Possibility to view the user card with the retrieved informations.
-- Calculate similarity scores using the [LODS mesure](https://ieeexplore.ieee.org/abstract/document/7536467).
+- Calculate similarity scores using the LODS mesure.
 - Possibility to view the list of recommendations on a terminal screen.
 
 ## Application usage
