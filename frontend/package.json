@@ -1,0 +1,55 @@
+{
+  "homepage": "https://solid.github.io/profile-viewer-react/",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.29",
+    "@fortawesome/react-fontawesome": "^0.1.11",
+    "@material-ui/core": "^4.10.2",
+    "@material-ui/icons": "^4.9.1",
+    "@solid/react": "^1.6.0",
+    "@trendmicro/react-sidenav": "^0.5.0",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.4.1",
+    "cross-storage": "^1.0.0",
+    "dbpedia-sparql-client": "^0.9.8",
+    "fast-xml-parser": "^3.16.0",
+    "mysql": "^2.18.1",
+    "node-sass": "^4.14.1",
+    "ora": "^4.0.4",
+    "rdflib": "^1.2.2",
+    "react": "^16.13.1",
+    "react-component-errors": "0.0.6",
+    "react-dom": "^16.8.6",
+    "react-flippy": "^0.1.5",
+    "react-icons": "^3.10.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^2.1.8",
+    "react-stepper-horizontal": "^1.0.11",
+    "react-toastify": "^6.0.4",
+    "react-tooltip": "^4.2.7",
+    "react-xml-parser": "^1.1.6",
+    "simple-xml-to-json": "^1.0.7",
+    "solid-auth-client": "^2.4.1",
+    "solid-file-client": "^0.5.3",
+    "sparql-connect": "^0.1.6",
+    "sparql-http-client": "^2.2.2",
+    "superagent": "^5.2.2",
+    "xml-js": "^1.6.11",
+    "xml2json": "^0.12.0"
+  },
+  "scripts": {
+    "start": "SET PORT=5000 && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "proxy": "http://localhost:4001/"
+}

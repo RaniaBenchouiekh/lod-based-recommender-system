@@ -1,0 +1,360 @@
+$darkGreen : #61892f;
+$lightGreen : #86c232;
+$black : #222629;
+$darkGrey : #474b4f;
+$lightGrey:#6b6e70;
+$grey : #bec0c2;
+
+
+.RS-wrapper{
+  height: 100vh;
+  width: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: $black;
+}
+.RS-rsInfos{
+  position: absolute;
+  top: 40px;
+  left:40px;
+  right:30px;
+  height: 170px;
+  width: 90%;
+  background-color: $black;
+  color: $grey;
+}
+
+.RS-rsTitle{
+  margin: 10px 20px 15px 20px;
+  font-family: "lato", sans-serif;
+  color: $lightGreen;
+  letter-spacing: 1px;
+}
+.RS-rsDesc{
+  margin: 0px 20px 5px 20px;
+  font-family: "lato", sans-serif;
+  font-size: 13px;
+}
+.RS-rsDesc>span{
+  font-size: small;
+}
+.RS-similarities{
+  margin-top:5px;
+  margin-left: 15px;
+}
+.RS-mesureIndex{
+  color: $lightGreen;
+}
+.RS-link{
+  color: $lightGrey;
+  margin-left: 20px;
+  font-size: 11px;
+  font-family: "lato", sans-serif;
+}
+.RS-link a,
+.RS-rsDesc a{
+  color: $grey;
+}
+.RS-link a:hover,
+.RS-link a:focus,
+.RS-rsDesc a:hover,
+.RS-rsDesc a:focus{
+  color: $lightGreen;
+}
+.RS-rsTitle span,
+.RS-link span{
+  color: $lightGreen;
+  letter-spacing: normal;
+}
+.RS-link span{
+  margin-left: 20px;
+}
+.RS-loginForm{ 
+  position: absolute;
+  top: 250px;
+  left:80px;
+  height: 200px;
+  width: 350px;
+  margin-left:10px;
+}
+
+.RS-loginText{
+  margin-bottom: 30px;
+  font-family: "lato", sans-serif;
+  color: $grey;
+  font-size: 14px;
+}
+
+.RS-loginButton button{
+  float: left;
+  width: 150px;
+  height: 50px;
+  color: $grey;
+  font-weight: bolder;
+  font-size: 16px;
+  border-radius: 3px;
+  border : 2px solid $grey;
+  background: none;
+  padding: 12px 30px;
+  cursor: pointer;
+  outline: 0;
+}
+
+.RS-loginButton button:hover,
+.RS-loginButton button:focus{
+border-color: $lightGreen;
+color: $lightGreen;
+}
+
+
+.RS-profileContainer {
+  position: absolute;
+  left:0px;
+  height: 250px;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+
+    .RS-profileImage {
+      height: 80px;
+      width: 80px;
+      background: url('../../Assets/user.png');
+      background-size: cover;
+      background-position: center;
+      position: absolute;
+      top: -20px;
+      left: -20px;
+      border-radius: 50%;
+      box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    }
+    .RS-profileName {
+      color:$grey;
+      font-size: 18px;
+      text-align: center;
+      margin: 22px 0 20px 0;
+    }
+    .RS-profileDesc{
+      margin-bottom: 10px;
+      margin-left:50px;
+      margin-right:40px;
+      color:$lightGreen;
+    }
+    .RS-profileDesc>p,
+    .RS-profileDesc>div{
+        font-size: 13.5px;
+        font-weight: bold;
+        font-family: "lato", sans-serif;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    .RS-profileDesc p span{
+      font-weight: normal;
+      color: $grey;
+    }
+    .RS-preferedGenres {
+      color: $grey;
+      font-weight: normal;
+      margin-top: 2px;
+      display: -webkit-box;
+      overflow : hidden;
+      text-overflow: ellipsis;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical; 
+    }
+}
+
+.RS-userCard{
+  position: absolute;
+  top: 300px;
+  left:80px;
+  height: 250px;
+  width: 370px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(109, 107, 107);
+  border-radius: 3px;
+  box-shadow: 1px 2px 26px rgba(0,0,0,0.3);
+}
+
+.RS-logoutArea{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+}
+.RS-logoutButton button{
+  position: absolute;
+  top: 14px;
+  right: 27px;
+  width: 80px;
+  height: 38px;
+  color: $grey;
+  font-weight: bolder;
+  font-size: 14px;
+  border-radius: 3px;
+  border : 2px solid $grey;
+  background: none;
+  padding: 10px 1px;
+  cursor: pointer;
+  outline: 0;
+}
+.RS-logoutButton button:hover,
+.RS-logoutButton button:focus{
+border-color: $lightGreen;
+color: $lightGreen;
+}
+
+.RS-terminal{
+  position: absolute;
+  position: absolute;
+  top: 300px;
+  right:125px;
+  height: 250px;
+  width: 650px;
+  background-color: #000;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  box-shadow: 1px 2px 26px rgba(0,0,0,0.3);
+}
+.RS-terminalHeader{
+  position: absolute;
+  height: 40px;
+  width: 100%;
+  background-color: $lightGrey;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  top:0;
+  left:0;
+  right:0;
+ 
+}
+#RS-terminalTitle{
+  margin-left: 15px;
+  font-family: "lato", sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 40px;
+  color: $grey;
+}
+.RS-terminalHeader span{
+  position: absolute;
+  height: 22px;
+  width: 22px;
+  border-radius: 50%;
+  box-shadow: 1px 2px 20px rgba(0,0,0,0.3);
+  text-align: center;
+  font-family: "lato", sans-serif;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.RS-terminalHeader span:nth-child(2){
+  color: rgb(230, 97, 97);
+  top:10px;
+  right:12px;
+  line-height: 20px;
+}
+.RS-terminalHeader span:nth-child(3){
+  color: white;
+  top:10px;
+  right:40px;
+  line-height: 10px;
+}
+.RS-terminalHeader span:nth-child(2):hover,
+.RS-terminalHeader span:nth-child(3):hover{
+  cursor: pointer;
+  box-shadow: 1px 2px 10px rgba(29, 29, 29, 0.747);
+}
+.RS-terminalBody{
+  position:absolute;
+  top:50px;
+  margin-top: 6px;
+  overflow-y: scroll;
+  height: 190px;
+  width: 637px;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  cursor: pointer;
+}
+::-webkit-scrollbar-track {
+  background: black; 
+}
+::-webkit-scrollbar-thumb {
+  background: $grey; 
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+::-webkit-scrollbar-corner {
+  background: black;
+}
+
+.RS-terminalBody div, 
+.RS-terminalBody p{
+  font-family: "Courier New", Courier, monospace;
+  font-size: 12px;
+  margin-left: 12px;
+  margin-top: 1px;
+  color: $lightGreen;
+  max-width: 627px;
+  overflow : hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+#RS-terminalText {
+  position: absolute;
+  height:50px;
+  width: 96%;
+  background-color:#000;
+  top:0;
+  left:0;
+  animation: type 5s ease-in-out 1 forwards;
+}
+
+.RS-textCover {
+  position: relative;
+  width: 5px;
+  height: 5px;
+  animation-name: example;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0%   {background-color:rgb(65,228,106); left:0px;  top:0px;}
+  10%  {background-color:rgb(65,228,106); left:5px;  top:0px;}
+  20%  {background-color:rgb(65,228,106); left:7px; top:0px;}
+  30%  {background-color:rgb(65,228,106); left:10px; top:0px;}
+  40%  {background-color:rgb(65,228,106); left:10px; top:5px;}
+  50%  {background-color:rgb(65,228,106); left:10px; top:7px;}
+  60%  {background-color:rgb(65,228,106); left:7px;  top:7px;}
+  70%  {background-color:rgb(65,228,106); left:5px;  top:7px;}
+  80%  {background-color:rgb(65,228,106); left:0px;  top:7px;}
+  90%  {background-color:rgb(65,228,106); left:0px;  top:5px;}
+  100% {background-color:rgb(65,228,106); left:0px;  top:0px;}
+}
+
+.RS-tooltip{
+  z-index: 1000000 !important; 
+}
+
+.RS-permissionsError{
+  color: aliceblue;
+  position: absolute;
+  top: 55%;
+  left: 440px;
+}
+
+.RS-cnxError{
+  color: white;
+  width: 100%;
+  text-align: center;
+  margin-top: 110px;
+}
