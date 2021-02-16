@@ -1,42 +1,58 @@
-# LODS Recommender System Provider
-**LODS RSP** , a plateform offering a LODS based recommender system.
+# LODS Recommender System
+**LODS RS**, a plateform offering a LODS based recommender system.
 
 ## Motivation
-The decentralized plateform **LODS RSP** was created in order to calculate similarity scores between different data types using the [LODS mesure](https://ieeexplore.ieee.org/abstract/document/7536467).
+The decentralized plateform **LODS RS** was created in order to calculate similarity scores between different data types using the [LODS mesure](https://ieeexplore.ieee.org/abstract/document/7536467).
 
 ## Screenshots
 
 <img src="screenshots/Picture.png" alt="Recommender System Interface"/>
+
 ## Installation
 
-To use the application properly without any errors, you should install the following tools and packages via the terminal of your code editor ( Ex. [Visual Studio Code](https://code.visualstudio.com/download).
-You can use the **npm** command as such:
+To use the application, you should install the following tools and packages via the terminal of your code editor ( Ex. [Visual Studio Code](https://code.visualstudio.com/download).
+Since all necessary packages are present in the ***package.json*** file, you can run :
+
+```bash
+npm install
+```
+Or re-install everything, one package at a time or more (use spacing between package names in the command) :
 
 ```bash
 npm install <tool_or_library_name>
 ```
+
 or use the **yarn** command :
+
 ```bash
 yarn install <tool_or_library_name>
 ```
+
 #### Datasets
+
   - To begin, download the following file [CSVFiles.zip](http://www.mediafire.com/file/ouzkwbhogsyrj27/CSVFiles.zip/file).
   - Open the **LODS RSP** project repository in the code editor.
   - In the files hierarchy of the project, browse to the following repository : <YOUR_ROOT>/Application/Recommender System/Backend/CSVFiles.
   - Extract the *CSVFile.zip* file then copy the content in the previous path. 
+  
 #### Application Frontend
   - [ReactJs](https://fr.reactjs.org/)
+  
 #### Application Backend
   - [Node.js](https://nodejs.org/en/)
   - [Express.js](https://expressjs.com/fr/)
+  
 #### Solid Libraries
   - [Solid Auth Client](https://github.com/solid/solid-auth-client)
   - [ACL Check](https://github.com/solid/acl-check)
   - [rdflib.js](https://github.com/linkeddata/rdflib.js/)
   - [Solid File Client](https://github.com/jeff-zucker/solid-file-client)
   - [Solid React Components](https://github.com/solid/react-components)
+  
 #### Additional libraries
+
   - React's **nodeModules**, which can be installed as follows : 
+  
 ```bash
 npm install
 ```
